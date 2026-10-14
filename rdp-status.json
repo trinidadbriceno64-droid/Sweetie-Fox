@@ -53,5 +53,52 @@
     "audio_output": "rdp_playback_enabled",
     "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
     "wallpaper": "xyverse_configured_for_user_logon"
+  },
+  "samp": {
+    "play_tested": false,
+    "status": "dependencies_ready",
+    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+    "samp_installed": false,
+    "vcredist": "verified_x86_x64_and_2013_x86",
+    "gta_installed": false,
+    "directx": "verified_x86_x64",
+    "directplay": "Enabled",
+    "netfx3": "Enabled"
+  },
+  "games": {
+    "samp": {
+      "game_dir": null,
+      "status": "dependencies_ready",
+      "samp_installed": false,
+      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+      "gta_installed": false
+    },
+    "minecraft_java": {
+      "status": "disabled",
+      "note": "Tidak dipilih"
+    },
+    "roblox": {
+      "status": "disabled",
+      "note": "Tidak dipilih"
+    },
+    "minecraft_bedrock": {
+      "status": "disabled",
+      "note": "Tidak dipilih"
+    }
+  },
+  "game_environment": {
+    "play_tested": false,
+    "hypervisor_present": true,
+    "os": "Microsoft Windows Server 2022 Datacenter",
+    "windows_server": true,
+    "runner": "windows-2022"
+  },
+  "host_tools": {
+    "winrar": "verified 7.23.0 (vendor trial; license not included)",
+    "vcredist": "verified_current_v14_x86_x64",
+    "xampp": "verified_files_php_apache_config_mariadb_version; services not started",
+    "firewall7777": "verified_TCP_UDP_inbound_rules; not_public_forwarding",
+    "errors": [],
+    "public_port": false
   }
 }
