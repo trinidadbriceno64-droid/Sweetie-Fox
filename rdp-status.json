@@ -1,25 +1,25 @@
 {
   "active": true,
-  "hostname": "rdpfree-2",
+  "hostname": "rdpfree-3",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
-    "cpu_threads": 4,
+    "disk_free_gb": 81.9,
     "ram_gb": 16.0,
-    "disk_free_gb": 79.4
+    "cpu_threads": 4
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-14T13:56:58Z",
-  "expires_at": "2026-10-14T19:51:58Z",
+  "started_at": "2026-10-14T18:16:25Z",
+  "expires_at": "2026-10-15T00:11:25Z",
   "duration_menit": 355,
-  "run_id": "38576098854",
+  "run_id": "38613705801",
   "run_attempt": "1",
-  "run_number": "2",
-  "run_url": "https://github.com/trinidadbriceno64-droid/Sweetie-Fox/actions/runs/38576098854",
+  "run_number": "3",
+  "run_url": "https://github.com/trinidadbriceno64-droid/Sweetie-Fox/actions/runs/38613705801",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -39,67 +39,19 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "akses": {
+    "mode": "tailscale",
     "tailscale": {
-      "magicdns": "rdpfree-2.tailb7c051.ts.net.",
+      "ip": "100.80.83.5",
+      "magicdns": "rdpfree-3.tailb7c051.ts.net.",
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
       "status": "ok",
-      "hostname": "rdpfree-2",
-      "ip": "100.111.39.37",
-      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL."
-    },
-    "mode": "tailscale"
-  },
-  "media": {
-    "microphone": "rdp_capture_enabled",
-    "wallpaper": "xyverse_configured_for_user_logon",
-    "audio_output": "rdp_playback_enabled",
-    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end."
-  },
-  "samp": {
-    "vcredist": "verified_x86_x64_and_2013_x86",
-    "directplay": "Enabled",
-    "samp_installed": false,
-    "status": "dependencies_ready",
-    "netfx3": "Enabled",
-    "play_tested": false,
-    "gta_installed": false,
-    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
-    "directx": "verified_x86_x64"
-  },
-  "games": {
-    "samp": {
-      "status": "dependencies_ready",
-      "game_dir": null,
-      "samp_installed": false,
-      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
-      "gta_installed": false
-    },
-    "minecraft_bedrock": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    },
-    "minecraft_java": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    },
-    "roblox": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
+      "hostname": "rdpfree-3"
     }
   },
-  "game_environment": {
-    "hypervisor_present": true,
-    "play_tested": false,
-    "windows_server": true,
-    "runner": "windows-2022",
-    "os": "Microsoft Windows Server 2022 Datacenter"
-  },
-  "host_tools": {
-    "winrar": "verified 7.23.0 (vendor trial; license not included)",
-    "vcredist": "verified_current_v14_x86_x64",
-    "xampp": "verified_files_php_apache_config_mariadb_version; services not started",
-    "firewall7777": "verified_TCP_UDP_inbound_rules; not_public_forwarding",
-    "errors": [],
-    "public_port": false
-  },
-  "heartbeat_at": "2026-10-14T16:11:27.0337915Z"
+  "media": {
+    "audio_output": "rdp_playback_enabled",
+    "microphone": "rdp_capture_enabled",
+    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
+    "wallpaper": "xyverse_configured_for_user_logon"
+  }
 }
